@@ -1,0 +1,123 @@
+.heading1{
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 5px grey;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    border: none;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: lightpink;
+}
+.btn button a{
+    text-decoration:none;
+    color: brown;
+}
+
+.one{
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+}
+.heading2{
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 5px grey;
+}
+.btn2{
+    text-align: center;
+}
+.btn2 button{
+    border: none;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: lightpink;
+}
+.btn2 button a{
+    text-decoration: none;
+    color: brown;
+}
+.heading3{
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 5px grey;
+
+}
+.email{
+    margin-left: 5%;
+}
+.one input{
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+outline: none;
+}
+.two{
+    text-align: center;
+    width: 50%;
+    margin:30px auto ;
+}
+.female{
+    margin-left: 18%;
+}
+.hobbies{
+    margin-left: 4%;
+}
+.sketching{
+    margin-left: 22%;
+}
+.embroidery{
+    margin-left: 25%;
+}
+
+.reading{
+    margin-left: 19%;
+}
+.photography{
+    margin-left: 26%;
+}
+.other{
+    margin-left: 22%;
+}
+.country{
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    outline: none;
+}
+.heading4{
+    text-align: center;
+    color: palevioletred;
+    text-shadow: 5px 5px 5px grey;
+}
+.date{
+    margin-right: 6%;
+}
+.time{
+    margin-right: 10%;
+}
+.feedback{
+    text-align: center;
+    width: 50%;
+    margin: 30px auto;
+
+}
+.Comment{
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    outline: none;
+}
+.body{
+    background-image: url(./WhatsApp\ Image\ 2025-11-11\ at\ 7.40.59\ PM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-resolution: 1920*1080;
+    margin: 0%;
+    padding: 0%;
+    background-position: center;
+    height: 100vh;
+}
