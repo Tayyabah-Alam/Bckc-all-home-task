@@ -1,0 +1,773 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    font-size: 15px;
+    height: 30px;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    box-shadow: 0 0 2px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+
+}
+.links li{
+    text-decoration: none;
+}
+.links ul li a{
+    text-decoration: none;
+    gap: 40px;
+    color: black;
+    padding: 10px;
+}
+.links ul li a:hover{
+    color: rgb(199, 193, 193);
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+
+
+.section1{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    background-image: url(./assets/asset\ 34.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;  
+    align-items: end;
+    justify-content: center;
+    
+}
+.section1content{
+    margin-bottom: 200px;
+
+}
+.section1content h1{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.section1content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section1btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section1btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+      
+ }
+
+ /* section 1 ended */
+ .section2{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image:url(./assets/asset\ 35.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;  
+    align-items: top;
+    justify-content: center;
+    
+}
+.section2content{
+    margin: 50px;
+    margin-bottom: 250px;
+    color: white;
+}
+.section2content h1{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.section2content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section2btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section2btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+      
+ }
+ .section2btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(221, 199, 199);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+
+ /* section 3 ended */
+ .section3{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image:url(./assets/asset\ 36.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;  
+    align-items: top;
+    justify-content: center;
+    
+}
+.section3content{
+    margin: 50px;
+    color: black;
+}
+.section3content h1{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.section3content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section3btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section3btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section3btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+
+ /* section 3 ended */
+ .section4{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image:url(./assets/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;  
+    align-items: top;
+    justify-content: center;
+    
+}
+.section4content{
+     margin: 50px;
+    color: black;
+}
+.section4content h1{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.section4content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section4btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section4btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section4btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+
+ /* section 4 ended */
+ .section5{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    background-image:url(./assets/promo_ipad__fioegapg12qi_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+     display: flex;  
+    align-items: top;
+    justify-content: center;
+    
+}
+.section5content{
+     margin: 50px;
+    color: black;
+}
+.section5content h1{
+    font-size: 5rem;
+    text-align: center;
+    
+}
+.section5content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section5btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section5btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section5btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+
+ /* section 5 ended */
+ .section6{
+    width: 100%;
+    height: 700px;
+    background-color:white;
+     display: flex;  
+    align-items: top;
+    justify-content: space-around;
+    gap: 10px;
+     margin-top: 10px;
+    
+}
+.section6content{
+     width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 37.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+    margin-bottom: 250px;
+    color: black;
+   
+}
+.section6content h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.section6content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section6btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section6btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section6btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+/* section 6 content 2 starts */
+.section6content2{
+    width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 41.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    margin-bottom: 250px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.section6content2 img{
+    text-align: center;
+    width: 450px;
+    margin-bottom: 15px;
+    
+}
+.section6content2 p{
+    font-size: 2rem;
+    text-align: center;
+}
+ 
+ /* section 6 ended */
+ .section7{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+     display: flex;  
+    align-items: top;
+    justify-content: space-around;
+    gap: 10px;
+     margin-top: 10px;
+    
+}
+.section7content{
+     width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 42.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+    margin-bottom: 250px;
+    color: black;
+   
+}
+.section7content h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.section7content p{
+    font-size: 2rem;
+    text-align: center;
+}
+ .section7btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section7btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section7btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+    cursor: pointer;
+  
+} 
+/* section 7 content 2 starts */
+.section7content2{
+     width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 39.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    margin-bottom: 250px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.section7content2 img{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+
+}
+.section7content2 p{
+    font-size: 2rem;
+    text-align: center;
+}
+ 
+ /* section 7 ended */
+ .section8{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+     display: flex;  
+    align-items: top;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.section8content{
+     width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 44.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: left;
+    margin-bottom: 250px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.section8content img{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    
+}
+.section8content p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+ .section8btnbutton{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border: none;
+    font-size: 2rem;
+    border-radius: 50px;
+    border-color: rgb(13, 120, 227);
+    padding: 6px 15px;
+    color: white;
+    background-color: rgb(13, 120, 227);
+    cursor: pointer;
+  
+} 
+ .section8btn{ 
+     text-align: center; 
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+    gap: 10px;
+    
+ }
+ .section8btnbutton2{
+     display: flex;
+    justify-content: center; 
+     text-align: center; 
+      margin-top: 10px;  
+    border-color: rgb(13, 120, 227);
+    font-size: 2rem;
+    border-radius: 50px;
+    padding: 6px 15px;
+    color: rgb(13, 120, 227);
+    background-color: transparent;
+  cursor: pointer;
+} 
+/* section 8 content 2 starts */
+.section8content2{
+     width: 50%;
+    height: 700px;
+    background-image: url(./assets/asset\ 46.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: right;
+    margin-bottom: 250px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.section8content2 img{
+    text-align: center;
+    width: 250px;
+    margin-bottom: 15px;
+ 
+
+}
+.section8content2 p{
+    font-size: 2rem;
+    text-align: center;
+}
+
+ /* section 8 ended */
+ .footer{
+
+    background: #f5f5f7;
+    padding: 40px 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #858282;
+    line-height: 1.5rem;
+  
+ }
+ .footerp{
+    font-size: 0.9rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+ .footerp a{
+    color: #333;
+ }
+ hr{
+    width: 67%;
+   margin: auto;
+ }
+
+.footerlinks{
+    margin-top: 5px;
+     display: flex;
+    justify-content: center;
+  gap: 5rem;
+}
+
+.footerlinks h4{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #323233;
+}
+    
+ .footerlinks a{
+    text-decoration: none;
+    color: #858282;
+ }
+ .footerlinks a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+ }
+ .column a{
+    display: block;
+
+ }
+.h4{
+    margin-top: 10px;
+}
+/* All lines ended */
+.last{
+    display: flex;
+}
+.footerp2{
+    font-size: 0.9rem;
+   margin-left: 17%;
+    display: flex;
+    color: #858282;
+    
+}
+.footerp2 a{
+    color: #0066CC;
+}
+hr{
+    width: 67%;
+   margin: auto;
+ }
+ .copyright{
+    margin-left: 16.5%;
+    color: #858282;
+ } 
+ .copyright:hover{
+    cursor: pointer;
+ }
+ .footerlinks2 ul{
+    display:  flex;
+    margin-left: 40px;
+ }
+ .footerlinks2 ul li{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .footerlinks2 ul li a{
+    color: #858282;
+    text-decoration: none;
+    margin-right: 8px;
+ }
+ .footerlinks2 ul li a:hover{
+    text-decoration: underline;
+ }
+ .unitedstates{
+     margin-left: 12%;
+ }
+ .unitedstates a{
+    text-decoration: none;
+    color: #858282;
+ }
+ .unitedstates a:hover{
+    text-decoration: underline;
+ }
